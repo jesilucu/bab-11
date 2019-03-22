@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js> </script>
+$(document).ready(function(){
+	var div = $("div");
+	div.animate({height: '300px', opacity: '0.4'}, "slow");
+	div.animate({width: '300px', opacity:'0.8'}, "slow");
+	div.animate({height: '100px', opacity: '0.4'}, "slow");
+	div.animate({width: '100px', opacity: '0.8'}, "slow");
+	});
+});
+</script>
+</head>
+<body>
+<button>Start Animate</button>
+<p>By deffult, all HTML elements have a static position, and cannot be moved.To manipulate the position, remember to first set the CSS position property of the selemnt to relative, fixed, orabsolute</p>
+<div style="background:#98bf21;height:100px;width:100px;positio:absolute;"></div>
+</body>
+</html>
+</script>
+</head>
+<body>
+<p>Demonstrate fadeIn() with different parameters</p>
+<button>Click to fade in boxes</button><br><br>
+<div id="div1" style="width:80px; height:80px; display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px; height:80px; display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px; height:80px; display:none;background-color:blue;"></div>
+</body>
+</html>
